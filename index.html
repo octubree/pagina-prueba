@@ -46,6 +46,16 @@
       top: -30px;
       right: 60px;
     }
+    @media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar li {
+    display: block;
+    margin: 0;
+  }
+}
+
     </style>
 </head>
 
@@ -81,7 +91,7 @@
     <div class="container">
 
   
-   <div class="fixed-top">
+<div class="fixed-top">
   <ul id="navbar" class="navbar navbar-expand-lg" style="background-color: transparent; padding: 0; margin: 0; box-shadow: none; list-style: none;">
     <li class="nav-item" style="display: inline-block; margin-right: 1em;">
       <a class="nav-link active" href="#header">Inicio</a>
@@ -100,6 +110,7 @@
     </li>
   </ul>
 </div>
+
 
       
       <div style="margin-bottom: 20px;">
