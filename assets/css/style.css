@@ -15,7 +15,9 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+   
 }
+
 
 body::before {
   content: "";
@@ -28,6 +30,10 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+.inicio .nav-link.active {
+  display: none;
+}
+
 
 @media (min-width: 1024px) {
   body::before {
