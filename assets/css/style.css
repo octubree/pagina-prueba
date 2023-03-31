@@ -275,6 +275,19 @@ h6 {
   position: fixed;
   right: 15px;
   top: 15px;
+    animation: zoom-in 1s 2;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 991px) {
