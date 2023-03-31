@@ -283,7 +283,7 @@ h6 {
   }
 
   .navbar ul {
-    display: none;
+    display: inline-block;
   }
 }
 
