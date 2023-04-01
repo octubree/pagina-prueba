@@ -267,16 +267,28 @@ h6 {
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 28px;
+  font-size: 88px;
   cursor: pointer;
-  display: none;
+  display: inline-flex;
   line-height: 0;
   transition: 0.5s;
   position: fixed;
   right: 15px;
   top: 15px;
+    animation: zoom-in 1s 4;
 }
 
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
