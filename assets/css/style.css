@@ -29,6 +29,17 @@ body::before {
   z-index: -1;
 }
 
+      /* FLECHA GIF----- */
+     #gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
