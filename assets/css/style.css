@@ -275,7 +275,10 @@ h6 {
   position: fixed;
   right: 15px;
   top: 15px;
-    animation: zoom-in 1s 4;
+   
+  /* EFECTO ZOOM MENU---- */
+  
+  animation: zoom-in 1s 6;
 }
 
 @keyframes zoom-in {
