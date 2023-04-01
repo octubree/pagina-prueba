@@ -298,11 +298,11 @@ h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    display: none;
   }
 
   .navbar ul {
-    display: none;
+    display: inline-block;
   }
 }
 
