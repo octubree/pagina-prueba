@@ -18,18 +18,19 @@
 /* BOTON WHATSAPP ------ */
 
 /* Estilos para pantallas más grandes */
+/* Oculta el botón de WhatsApp y el enlace de llamada sólo en pantallas grandes */
 @media screen and (min-width: 600px) {
-  /* Oculta el botón de WhatsApp y el enlace de llamada */
   .contacto a {
     display: none;
   }
-  
-  /* Muestra el número de teléfono de respaldo en su lugar */
-  #telefono-respaldo {
-    display: inline-block !important;
-  }
 }
 
+/* Muestra el botón de WhatsApp y el enlace de llamada sólo en pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .contacto a {
+    display: block;
+  }
+}
 
 
 /* TERMINA BOTON WHATSAPP  */
