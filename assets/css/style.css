@@ -18,7 +18,7 @@
 /* BOTON WHATSAPP ------ */
 
 /* Estilos para pantallas más grandes */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   /* Oculta el botón de WhatsApp y el enlace de llamada */
   .contacto a {
     display: none;
