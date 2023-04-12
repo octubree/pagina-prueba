@@ -23,9 +23,14 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
 
   <!-- =======================================================
   * Template Name: Personal
@@ -38,21 +43,21 @@
 
 <body>
 
-                    <!-- BOTON LLAMADAS Y WHATSAPP --- -->
+                                <!-- Botón de WhatsApp y enlace de llamada -->
+<div class="contacto" style="display: inline-block; margin: 10px; padding: 15px;">
+  <a href="https://wa.me/59892508795" style="display: inline-block; margin: 30px;">
+    <img src="https://ellwinan.sirv.com/WHATSAPP.png?format=webp" width="50" height="50" alt="Botón de WhatsApp">
+  </a>
+  <a href="tel:+59892508795" class="btn btn-primary btn-lg" style="display: inline-block; font-size: 24px; font-family: 'Anton', sans-serif; color:white; text-shadow: 1px 1px black;">
+    <span>092508795</span>
+  </a>
 
- <div style="display: inline-block; margin: 10px; padding: 15px;">         <!-- BOTON WHATSAPP ----------- -->
-  <div >
-    <a href="tel:+59892508795" class="btn btn-primary btn-lg" style="display: flex; align-items: flex-end ; justify-content: flex-end; font-size: 24px; font-family: 'Anton', sans-serif; color:white; text-shadow: 1px 1px black;">
-      <span>092508795</span>
-    </a>
-  </div>
-  
-  
-  
-    <div><a href="https://wa.me/59892508795" style="display: inline-block; margin: 30px;">
-      <img src="https://ellwinan.sirv.com/WHATSAPP.png?format=webp" width="50" height="50" alt="Botón de WhatsApp">
-    </a>
-  </div></div>
+</div>
+<span id="telefono-respaldo" style="display: none; font-size: 24px; font-family: 'Anton', sans-serif; color:white; text-shadow: 1px 1px black; margin-left: 30px;">
+  092-508-795
+</span>
+
+
   
                               <!-- TERMINA BOTON LLAMDAS Y WHATSAPP --- -->
 
@@ -90,7 +95,7 @@
           <li><a class="nav-link" href="#portfolio">Trabajos</a></li>
           <li><a class="nav-link" href="#about">Sobre mì</a></li>
           <li><a class="nav-link" href="#resume">Opiniones</a></li>
-          <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -1065,79 +1070,16 @@
   </div>
 </section><!-- End Portfolio Section -->
 
-  <!-- ======= Contact Section ======= -->
-  <!-- <section id="contact" class="contact">
-    <div class="container">
 
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
 
-      <div class="row mt-2">
+    <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
 
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
-          </div>
-        </div>
 
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>contact@example.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+1 5589 55488 55</p>
-          </div>
-        </div>
-      </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
 
-    </div> -->
+     
   </section><!-- End Contact Section -->
 
   <div class="credits">
