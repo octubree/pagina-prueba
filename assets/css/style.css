@@ -20,7 +20,7 @@
 /* Estilos para pantallas más grandes */
 /* Oculta el botón de WhatsApp y el enlace de llamada sólo en pantallas grandes */
 @media screen and (min-width: 768px) {
-  #contacto a {
+  #contacto {
     display: none;
   }
 }
