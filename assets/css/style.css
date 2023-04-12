@@ -19,18 +19,12 @@
 
 /* Estilos para pantallas más grandes */
 /* Oculta el botón de WhatsApp y el enlace de llamada sólo en pantallas grandes */
-@media screen and (min-width: 600px) {
-  .contacto a {
+@media screen and (min-width: 768px) {
+  #contacto a {
     display: none;
   }
 }
 
-/* Muestra el botón de WhatsApp y el enlace de llamada sólo en pantallas pequeñas */
-@media screen and (max-width: 600px) {
-  .contacto a {
-    display: block;
-  }
-}
 
 
 /* TERMINA BOTON WHATSAPP  */
